@@ -6,7 +6,7 @@ from SONALI_MUSIC import app
 
 #--------------------------
 
-MUST_JOIN = "ixasta1"
+MUST_JOIN = "codexempire"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
@@ -27,10 +27,10 @@ async def must_join_channel(app: Client, msg: Message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("• ᴊᴏɪɴ •", url="https://t.me/odsnetwork"),
+                                InlineKeyboardButton("• ᴊᴏɪɴ •", url="https://t.me/codexempire"),
                             ],
                             [
-                                InlineKeyboardButton("• ᴊᴏɪɴ •", url="https://t.me/ixasta1"),
+                                InlineKeyboardButton("• ᴊᴏɪɴ •", url="https://t.me/mentalchatting"),
                             ]
                         ]
                     )
