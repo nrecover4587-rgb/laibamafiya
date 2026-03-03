@@ -11,7 +11,7 @@ from typing import Union, Optional
 
 EVAA = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/Laibaamusicbot?startgroup=true"),
+        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ", url=f"https://t.me/{app.username}?startgroup=true"),
     ],
 ]
 
@@ -55,7 +55,7 @@ async def get_userinfo_img(
 
 # --------------------------------------------------------------------------------- #
 
-bg_path = "SONALI_MUSIC/assets/SonaliINFO.PNG"
+bg_path = "SONALI_MUSIC/assets/SonaliINFO.png"
 font_path = "SONALI_MUSIC/assets/hiroko.ttf"
 
 #
